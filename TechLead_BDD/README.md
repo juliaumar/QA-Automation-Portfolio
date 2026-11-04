@@ -1,12 +1,12 @@
-# TechLead_BDD — QA Automation Training Project
+# TechLead_BDD — QA Automation Testing Project
 
 ## Project Overview
 
-This project was developed during my Software Development Engineer in Test (SDET) training at TechLead Academy.
+This is a QA Automation project developed during my Software Development Engineer in Test (SDET) training.
 
-It demonstrates my experience with Java, Selenium WebDriver, Cucumber, JUnit, and the Page Object Model (POM).
+The project demonstrates my practical experience with Java, Selenium WebDriver, Cucumber, and Behavior-Driven Development (BDD).
 
-The project contains automated test scenarios for a web application's login and password recovery functionality.
+I worked on creating automated test scenarios for a web application's login functionality using the Page Object Model (POM) design pattern.
 
 ## Technologies Used
 
@@ -15,41 +15,39 @@ The project contains automated test scenarios for a web application's login and 
 - Cucumber (BDD / Gherkin)
 - JUnit
 - Maven
-- WebDriverManager
 - Page Object Model (POM)
 - Git and GitHub
 
 ## Test Scenarios
 
-- Verify the login page title
-- Verify the main logo is displayed
-- Verify student login and dashboard
-- Verify Forgot Password navigation
-- Verify password reset request confirmation
+The project includes automated test scenarios covering:
+
+- Login page title verification
+- Main logo visibility
+- Student login and dashboard verification
+- Forgot Password navigation
+- Password reset request and confirmation message
 
 ## Project Structure
 
-- `pages` — Page Object classes and reusable XPath templates
-- `step_definitions` — Cucumber step implementations and hooks
-- `runners` — Test runner and failed-scenario rerun configuration
-- `utils` — Browser utilities, configuration reader, logging, and screenshots
+- `pages` — Page Object classes
+- `step_definitions` — Java implementations of Cucumber steps
+- `runners` — Test execution configuration
+- `utils` — Reusable browser utilities
 - `resources/features` — Gherkin test scenarios
-- `pom.xml` — Maven dependencies and build configuration
+- `pom.xml` — Maven project configuration
 
 ## Skills Demonstrated
 
-- Writing BDD scenarios using Gherkin
-- Implementing Java step definitions
-- Automating browser interactions with Selenium
-- Using JUnit assertions
-- Organizing tests with the Page Object Model
-- Configuring test reports and screenshot attachments
+- Writing test scenarios using Gherkin
+- Developing Java step definitions
+- Using Selenium WebDriver for browser interactions
+- Organizing automated tests with the Page Object Model
+- Creating reusable test utilities
 - Working with Maven and GitHub
 
 ## Project Status
 
-This is a training portfolio project. The original application has changed since the tests were developed, and current test execution has not been verified.
+This is a training portfolio project. The original application has changed since the tests were developed, and current test execution and compatibility have not been verified.
 
-Sample credentials are used in the portfolio version. No real login credentials are included.
-
-The project is presented as an example of my SDET training and automation skills.
+The repository is maintained as an example of my SDET training and test automation skills.
